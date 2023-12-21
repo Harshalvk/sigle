@@ -1,5 +1,18 @@
 # @sigle/custom-domain
 
+## 0.3.0
+
+### Minor Changes
+
+- 4190a9f2: Remove micro-stacks and use @stacks/\* packages.
+- 15f6e3f7: Upgrade from node 18 to node 20.
+
+### Patch Changes
+
+- d7f07a13: Add custom domain app to local docker env.
+- bdd3d8ca: Create an optimised docker image with layers to run the E2E tests locally.
+- ba24a7be: Upgrade next.js to v14.
+
 ## 0.2.0
 
 ### Minor Changes

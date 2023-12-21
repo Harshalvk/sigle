@@ -1,5 +1,41 @@
 # @sigle/app
 
+## 1.8.0
+
+### Minor Changes
+
+- 2b4c09c8: Add redirection shortlinks, eg: /github, /gamma etc.
+- fc904ca4: New mobile drawer menu.
+- fbdf1bbb: Auto-generate react-query hooks from server openapi spec.
+- 4b791965: Create migration flow for the old legacy accounts.
+- e822f67d: Remove "Blockstack connect" (legacy login) from the app.
+- d1b9877a: Improve contributing workflow and onboarding documents. Introduce a new Docker Compose file to easily run all the services locally.
+- 97d8e574: Move sigle to apps folder in the monorepo.
+- 9f5fbcfd: Use next/font to optimise the font loading process.
+- fec6a403: Change register username page to point users to buy a new .btc username as the subdomains registration is currently not working.
+- 15f6e3f7: Upgrade from node 18 to node 20.
+
+### Patch Changes
+
+- 078514a6: New route that handles a new story creation.
+- 36359545: Add Tailwind to the sigle instead of relying on the @sigle/tailwind-style package.
+- ad6ab06e: Use route handlers for shortlinks.
+- d01e2889: Upgrade Stacks packages and update Hiro wallet references to Leather wallet.
+- 9f5fbcfd: Create an optimised docker image with layers to run the E2E tests locally.
+- fc904ca4: Use new design system Switch component.
+- 3727425d: Remove next.js page extension in files.
+- 352d81fc: Migrate app header to new design system.
+- 26d2c460: New eslint rule to configure import order.
+- fcc10f1f: Lazy load the story list in the dashboard to do less calls to Gaia and avoid getting rate limited.
+- 568b93ed: Refactor app header component.
+- ba24a7be: Upgrade next.js to v14.
+- c47af3a5: Fix to better handle the case where a user has a free subdomain and a .btc domain linked to the same address.
+- ccb83fa1: Lazy load images in story cards to do less calls to Gaia and avoid getting rate limited.
+- 90464f69: Change chrome e2e flags to make tests more consistants.
+- 992bd614: Setup @radix-ui/themes configuration for the new design system.
+- 8a5feec1: Add sonner instead of react-toastify for the toast components.
+- d82a66c9: Use new design system DropdownMenu component.
+
 ## 1.7.0
 
 ### Minor Changes

@@ -1,5 +1,18 @@
 # @sigle/server
 
+## 0.6.0
+
+### Minor Changes
+
+- 4190a9f2: Remove micro-stacks and use @stacks/\* packages.
+- ddde83af: Move server to apps folder in the monorepo.
+- 15f6e3f7: Upgrade from node 18 to node 20.
+
+### Patch Changes
+
+- 5d6fb9b4: Fix to better handle the case where a user has a free subdomain and a .btc domain linked to the same address.
+- b1bbfba6: Upgrade packages with many major versions (prisma 5, nestjs/throttler 5, ...)
+
 ## 0.5.0
 
 ### Minor Changes
